@@ -1,0 +1,74 @@
+/*Selectores*/
+/*Selectores universales*/
+*{
+    color: chartreuse;
+}
+h1{
+    color: forestgreen;
+}
+p{
+    color: brown;
+}
+
+/*Selectores por clase*/
+
+.titulo{
+    color: blue;
+
+}
+.parrafo{
+    color: aqua;
+}
+#titulo{
+    color: indigo;
+}
+#parrafo{
+    color: chartreuse;
+}
+/*Selectores de atributos*/
+[href]{
+    color: blue;
+}
+/*Selectores de href"#"*/
+[href="#"]{
+    color: brown;
+}
+/*Selectores de atributo por clase*/
+[class~="rojo"]{
+    color: cadetblue;
+}
+/*Selectores de atributo de una sola clase*/
+[class|="verde"]{
+    color: green;
+}
+
+/*Selectores de atributo los que empiecen de una clase*/
+[class^="rojo"]{
+    color: purple;
+}
+
+/*Selectores de atributo los que terminen de una clase*/
+[class$="verde"]{
+    color: red;
+}
+/*Selectores de atributo los que contengan  una clase*/
+[class*="rojo"]{
+    color: purple;
+}
+/*Selectores combinados*/
+/*Toma al hermano adyacente que esta por debajo*/
+h1 + h2 {
+color: chocolate;
+}
+/*Asi no tiene ningun efecto*/
+h2 + h2 {
+    color: blue;
+}
+/*Selector hermano general*/
+h1 ~ h3 {
+    color: black;
+}
+/*Selector hijo*/
+p span {
+    color: coral;
+}
