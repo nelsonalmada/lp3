@@ -1,0 +1,32 @@
+/*Pseudoelementos
+::first-letter (Elementos en bloque)
+::first-line (Elemento en linea)
+::before
+::after
+::selection
+*/
+.title::first-letter{
+    color: darkred;
+    font-size: 2em;
+}
+.title::first-line{
+    font-size: 1em;
+    color: violet;
+}
+.inline{
+    display: block;
+}
+.inline::first-letter{
+    color: red;
+    font-size: 2em;
+}
+.text::selection{
+    color: blue;
+    background: center;
+}
+.guaranies::before{
+    content: 'Gs. ';
+}
+.guaranies::after{
+    content: '0.000';
+}
