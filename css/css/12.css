@@ -1,0 +1,10 @@
+/*Display*/
+.inline{
+    background: darkgreen;
+    margin-right: 3em;
+    display: block;
+}
+.block{
+    background: chartreuse;
+    display: inline;
+}
