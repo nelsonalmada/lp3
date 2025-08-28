@@ -1,0 +1,20 @@
+/*Position
+Relative
+Absolute
+fixed
+stiky
+z-index
+*/
+/*Position fixed*/
+.body{
+    padding-top: 4em;
+}
+.menu{
+    background: aqua;
+    padding: .5em;
+    text-align: center;
+    font-size: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
