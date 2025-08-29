@@ -1,0 +1,14 @@
+/*Tablas*/
+.table, .table__data, .table__head{
+    border: 1px blue;
+    border-spacing: 10px;
+}
+.table{
+    border-collapse: collapse;
+}
+.table__data{
+    background-color: chartreuse;
+}
+.table-container{
+    overflow: auto;
+}
