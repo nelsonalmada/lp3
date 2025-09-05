@@ -10,7 +10,7 @@ else{
     alert('El numero es: '+numero)
 }
 //switch
-var edad = 50;
+var edad = 50 ;
 var imprimir = "";
 switch(edad){
     case 18:
